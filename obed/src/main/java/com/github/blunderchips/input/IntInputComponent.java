@@ -19,7 +19,7 @@ public class IntInputComponent extends InputComponent {
         getField().setInt(obj, getInput());
     }
 
-    private int getInput() {
+    private int getInput() throws NumberFormatException {
         String i = txtInt.getText().trim();
         if (i.isEmpty()) {
             return 0;
@@ -30,6 +30,7 @@ public class IntInputComponent extends InputComponent {
     @Override
     protected boolean isInputValid() {
         try {
+            //noinspection ResultOfMethodCallIgnored
             Integer.parseInt(txtInt.getText());
             return true;
         } catch (NumberFormatException nfe) {

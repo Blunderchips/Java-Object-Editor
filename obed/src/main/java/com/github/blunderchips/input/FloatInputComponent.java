@@ -30,6 +30,7 @@ public class FloatInputComponent extends InputComponent {
     @Override
     protected boolean isInputValid() {
         try {
+            //noinspection ResultOfMethodCallIgnored
             Float.parseFloat(txtFloat.getText());
             return true;
         } catch (NumberFormatException nfe) {

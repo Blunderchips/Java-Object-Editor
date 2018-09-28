@@ -19,7 +19,7 @@ public class ByteInputComponent extends InputComponent {
         getField().setByte(obj, getInput());
     }
 
-    private Byte getInput() {
+    private Byte getInput() throws NumberFormatException {
         String b = txtByte.getText().trim();
         if (b.isEmpty()) {
             return 0;

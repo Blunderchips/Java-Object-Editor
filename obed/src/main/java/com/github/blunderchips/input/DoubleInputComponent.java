@@ -19,7 +19,7 @@ public class DoubleInputComponent extends InputComponent {
         getField().setDouble(obj, getInput());
     }
 
-    private double getInput() {
+    private double getInput() throws NumberFormatException {
         String d = txtDouble.getText().trim();
         if (d.isEmpty()) {
             return 0;
@@ -30,6 +30,7 @@ public class DoubleInputComponent extends InputComponent {
     @Override
     protected boolean isInputValid() {
         try {
+            //noinspection ResultOfMethodCallIgnored
             Double.parseDouble(txtDouble.getText());
             return true;
         } catch (NumberFormatException nfe) {

@@ -19,7 +19,7 @@ public class LongInputComponent extends InputComponent {
         getField().setLong(obj, getInput());
     }
 
-    private long getInput() {
+    private long getInput() throws NumberFormatException {
         String l = txtLong.getText().trim();
         if (l.isEmpty()) {
             return 0;
@@ -30,6 +30,7 @@ public class LongInputComponent extends InputComponent {
     @Override
     protected boolean isInputValid() {
         try {
+            //noinspection ResultOfMethodCallIgnored
             Long.parseLong(txtLong.getText());
             return true;
         } catch (NumberFormatException nfe) {

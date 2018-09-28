@@ -24,7 +24,7 @@ public class ShortInputComponent extends InputComponent {
         getField().setShort(obj, getInput());
     }
 
-    private short getInput() {
+    private short getInput() throws NumberFormatException {
         String s = txtShort.getText().trim();
         if (s.isEmpty()) {
             return 0;
