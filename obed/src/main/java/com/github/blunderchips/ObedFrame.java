@@ -8,7 +8,7 @@ public class ObedFrame extends JFrame {
 
     public ObedFrame(Component parent) throws HeadlessException {
         super("~ Java Object Editor ~");
-        super.setLocationRelativeTo(null);
+        super.setLocationRelativeTo(parent);
         super.add(new Obed(new n()));
 
         pack();
