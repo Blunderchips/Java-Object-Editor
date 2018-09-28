@@ -331,12 +331,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="obed&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/ObedFrame.java&#10;String&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/filters/StringInput.java&#10;pom&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538172076937" />
+    <property name="SearchEverywhereHistoryKey" value="obed&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/Obed.java&#10;String&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/filters/StringInput.java&#10;pom&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538172166801" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

@@ -30,6 +30,7 @@ public class ByteInputComponent extends InputComponent {
     @Override
     protected boolean isInputValid() {
         try {
+            //noinspection ResultOfMethodCallIgnored
             Byte.parseByte(txtByte.getText());
             return true;
         } catch (NumberFormatException nfe) {

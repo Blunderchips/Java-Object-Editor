@@ -35,6 +35,7 @@ public class ShortInputComponent extends InputComponent {
     @Override
     protected boolean isInputValid() {
         try {
+            //noinspection ResultOfMethodCallIgnored
             Short.parseShort(txtShort.getText());
             return true;
         } catch (NumberFormatException nfe) {

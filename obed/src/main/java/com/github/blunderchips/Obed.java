@@ -17,8 +17,7 @@ import java.lang.reflect.Field;
  */
 public class Obed extends JPanel implements ActionListener {
 
-    private Object obj;
-    private JButton btnSubmit;
+    private final Object obj;
 
     public Obed(Object obj) {
         super.setLayout(new GridLayout(0, 1));
@@ -29,14 +28,14 @@ public class Obed extends JPanel implements ActionListener {
             add(getInputComponent(f));
         }
 
-        this.btnSubmit = new JButton("Submit");
-        this.btnSubmit.setToolTipText("Submit");
-        this.btnSubmit.addActionListener(this);
+        JButton btnSubmit = new JButton("Submit");
+        btnSubmit.setToolTipText("Submit");
+        btnSubmit.addActionListener(this);
         super.add(new JSeparator());
         super.add(btnSubmit);
     }
 
-    public Component getInputComponent(Field f) throws IllegalArgumentException {
+    private Component getInputComponent(Field f) throws IllegalArgumentException {
         // FIXME: 28 Sep 2018 ¯\_(ツ)_/¯
         if (f.getType().equals(String.class)) {
             return new StringInputComponent(f);
