@@ -9,8 +9,18 @@
     <version>0</version>
 
     <properties>
+        <!-- TODO -->
         <!-- siD 24/09/2018: Planning to use with libGDX project, so 1.6 required. -->
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.bidib.org.oxbow/swingbits -->
+        <dependency>
+            <groupId>org.bidib.org.oxbow</groupId>
+            <artifactId>swingbits</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
