@@ -31,7 +31,14 @@ public abstract class InputComponent extends JPanel {
      */
     public abstract void save(Object obj) throws IllegalAccessException;
 
-    public Field getField() {
+    protected Field getField() {
         return this.field;
+    }
+
+    /**
+     * @return True, assume that the input is valid
+     */
+    protected boolean isInputValid() {
+        return true;
     }
 }

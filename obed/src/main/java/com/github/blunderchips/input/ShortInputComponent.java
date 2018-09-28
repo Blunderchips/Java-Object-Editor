@@ -1,7 +1,5 @@
 package com.github.blunderchips.input;
 
-import com.github.blunderchips.StringInputField;
-
 import java.lang.reflect.Field;
 
 /**
@@ -13,7 +11,7 @@ public class ShortInputComponent extends InputComponent {
 
     public ShortInputComponent(Field field) {
         super(field);
-        super.add(txtShort = new StringInputField(field));
+        super.add(txtShort = new StringInputField(this));
     }
 
     /**
@@ -23,11 +21,24 @@ public class ShortInputComponent extends InputComponent {
      */
     @Override
     public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        validateInput();
-        getField().setShort(obj, Short.parseShort(txtShort.getText()));
+        getField().setShort(obj, getInput());
     }
 
-    // TODO: 28 Sep 2018
-    private void validateInput() {
+    private short getInput() {
+        String s = txtShort.getText().trim();
+        if (s.isEmpty()) {
+            return 0;
+        }
+        return Short.parseShort(s);
+    }
+
+    @Override
+    protected boolean isInputValid() {
+        try {
+            Short.parseShort(txtShort.getText());
+            return true;
+        } catch (NumberFormatException nfe) {
+            return false;
+        }
     }
 }

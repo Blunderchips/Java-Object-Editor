@@ -1,7 +1,5 @@
 package com.github.blunderchips.input;
 
-import com.github.blunderchips.StringInputField;
-
 import java.lang.reflect.Field;
 
 /**
@@ -13,7 +11,7 @@ public class StringInputComponent extends InputComponent {
 
     public StringInputComponent(Field field) {
         super(field);
-        super.add(txtInput = new StringInputField(field));
+        super.add(txtInput = new StringInputField(this));
     }
 
     @Override

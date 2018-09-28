@@ -1,7 +1,5 @@
 package com.github.blunderchips.input;
 
-import com.github.blunderchips.StringInputField;
-
 import java.lang.reflect.Field;
 
 /**
@@ -13,16 +11,29 @@ public class ByteInputComponent extends InputComponent {
 
     public ByteInputComponent(Field field) {
         super(field);
-        super.add(txtByte = new StringInputField(field));
+        super.add(txtByte = new StringInputField(this));
     }
 
     @Override
     public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        validateInput();
-        getField().setByte(obj, Byte.parseByte(txtByte.getText()));
+        getField().setByte(obj, getInput());
     }
 
-    // TODO: 28 Sep 2018
-    private void validateInput() {
+    private Byte getInput() {
+        String b = txtByte.getText().trim();
+        if (b.isEmpty()) {
+            return 0;
+        }
+        return Byte.parseByte(b);
+    }
+
+    @Override
+    protected boolean isInputValid() {
+        try {
+            Byte.parseByte(txtByte.getText());
+            return true;
+        } catch (NumberFormatException nfe) {
+            return false;
+        }
     }
 }

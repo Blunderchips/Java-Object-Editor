@@ -1,7 +1,5 @@
 package com.github.blunderchips.input;
 
-import com.github.blunderchips.StringInputField;
-
 import java.lang.reflect.Field;
 
 /**
@@ -13,16 +11,25 @@ public class CharInputComponent extends InputComponent {
 
     public CharInputComponent(Field field) {
         super(field);
-        super.add(txtChar = new StringInputField(field));
+        super.add(txtChar = new StringInputField(this));
     }
 
     @Override
     public void save(Object obj) throws IllegalAccessException {
-        validateInput();
-        getField().setChar(obj, txtChar.getText().charAt(0));
+        getField().setChar(obj, getInput());
     }
 
-    // TODO: 28 Sep 2018
-    private void validateInput() {
+    private char getInput() {
+        String c = txtChar.getText().trim();
+        if (c.isEmpty()) {
+            return ' ';
+        }
+        return c.charAt(0);
+    }
+
+    // TODO: 28 Sep 2018 Check
+    @Override
+    protected boolean isInputValid() {
+        return txtChar.getText().length() == 1;
     }
 }
