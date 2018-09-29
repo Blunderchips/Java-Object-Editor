@@ -26,7 +26,7 @@ public class LongInputComponent extends InputComponent {
     }
 
     @Override
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         try {
             //noinspection ResultOfMethodCallIgnored
             Long.parseLong(txtLong.getText());

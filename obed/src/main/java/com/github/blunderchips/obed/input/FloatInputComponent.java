@@ -26,7 +26,7 @@ public class FloatInputComponent extends InputComponent {
     }
 
     @Override
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         try {
             //noinspection ResultOfMethodCallIgnored
             Float.parseFloat(txtFloat.getText());

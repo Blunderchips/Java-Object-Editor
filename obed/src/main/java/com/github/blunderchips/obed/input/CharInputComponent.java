@@ -27,7 +27,7 @@ public class CharInputComponent extends InputComponent {
 
     // TODO: 28 Sep 2018 Check
     @Override
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         return txtChar.getText().length() == 1;
     }
 }

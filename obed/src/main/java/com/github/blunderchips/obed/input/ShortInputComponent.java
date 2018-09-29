@@ -26,7 +26,7 @@ public class ShortInputComponent extends InputComponent {
     }
 
     @Override
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         try {
             //noinspection ResultOfMethodCallIgnored
             Short.parseShort(txtShort.getText());

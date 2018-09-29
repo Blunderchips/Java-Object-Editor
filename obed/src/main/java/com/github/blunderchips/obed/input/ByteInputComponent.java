@@ -26,7 +26,7 @@ public class ByteInputComponent extends InputComponent {
     }
 
     @Override
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         try {
             //noinspection ResultOfMethodCallIgnored
             Byte.parseByte(txtByte.getText());

@@ -26,7 +26,7 @@ public class DoubleInputComponent extends InputComponent {
     }
 
     @Override
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         try {
             //noinspection ResultOfMethodCallIgnored
             Double.parseDouble(txtDouble.getText());
