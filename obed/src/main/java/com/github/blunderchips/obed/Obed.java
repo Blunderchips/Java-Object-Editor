@@ -1,6 +1,6 @@
-package com.github.blunderchips;
+package com.github.blunderchips.obed;
 
-import com.github.blunderchips.input.*;
+import com.github.blunderchips.obed.input.*;
 import org.oxbow.swingbits.dialog.task.TaskDialogs;
 
 import javax.swing.*;
@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 /**
- * Java Object Editor.
+ * Obed Java Object Editor.
  * Created 24th September 2018.
  *
  * @author Matthew Van der Bijl
@@ -33,7 +33,7 @@ public class Obed extends JPanel implements ActionListener {
         this.obj = obj;
 
         this.inputPanel = attachComponents(obj.getClass());
-        inputPanel.setBorder(BorderFactory.createTitledBorder(obj.getClass().getSimpleName()));
+        this.inputPanel.setBorder(BorderFactory.createTitledBorder(obj.getClass().getSimpleName()));
         add(new JScrollPane(inputPanel), BorderLayout.CENTER);
 
         if (isRoot) {

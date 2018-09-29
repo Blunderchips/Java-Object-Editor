@@ -1,4 +1,4 @@
-package com.github.blunderchips.input;
+package com.github.blunderchips.obed.input;
 
 import javax.swing.*;
 import java.lang.reflect.Field;

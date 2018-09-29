@@ -1,4 +1,4 @@
-package com.github.blunderchips.input;
+package com.github.blunderchips.obed.input;
 
 import javax.swing.*;
 import java.awt.*;
@@ -46,14 +46,14 @@ public abstract class InputComponent extends JPanel {
      */
     protected abstract Object getInput();
 
-    protected Field getField() {
+    public Field getField() {
         return this.field;
     }
 
     /**
      * @return True, assume that the input is valid
      */
-    protected boolean isInputValid() {
+    public boolean isInputValid() {
         return true;
     }
 }

@@ -1,5 +1,6 @@
-package com.github.blunderchips.input;
+package com.github.blunderchips.obed.util;
 
+import com.github.blunderchips.obed.input.InputComponent;
 import com.microsoft.alm.plugin.idea.common.ui.controls.HintTextFieldUI;
 
 import javax.swing.*;

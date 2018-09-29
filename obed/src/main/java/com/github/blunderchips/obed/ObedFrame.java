@@ -1,4 +1,4 @@
-package com.github.blunderchips;
+package com.github.blunderchips.obed;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +12,8 @@ public class ObedFrame extends JFrame {
     public ObedFrame(Component parent) throws HeadlessException {
         super("~ Java Object Editor ~");
         super.setLocationRelativeTo(parent);
-        super.add(new Obed(new n()));
+        // super.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        super.add(new Obed(new n())); // For testing
 
         pack();
         int size = Math.max(getWidth(), getHeight());

@@ -3,4 +3,4 @@
  *
  * @author Matthew 'siD' Van der Bijl
  */
-package com.github.blunderchips;
+package com.github.blunderchips.obed;
