@@ -9,8 +9,8 @@ public class ShortInputComponent extends InputComponent {
 
     private final StringInputField txtShort;
 
-    public ShortInputComponent(Field field) {
-        super(field);
+    public ShortInputComponent(Field field, Object obj) {
+        super(field, obj);
         super.add(txtShort = new StringInputField(this));
     }
 

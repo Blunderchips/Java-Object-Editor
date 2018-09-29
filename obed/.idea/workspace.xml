@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2cdd449-8d49-4290-ba90-6eea9366f817" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bc/ceres/swing/CollapsiblePane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/blunderchips/ObedFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/blunderchips/ObedFrame.java" afterDir="false" />
@@ -34,38 +33,41 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7432" />
+          <entry key="java" value="8741" />
           <entry key="kt" value="1" />
-          <entry key="txt" value="87" />
+          <entry key="txt" value="228" />
           <entry key="xml" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7432" />
+          <entry key="JAVA" value="8741" />
           <entry key="Kotlin" value="1" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="PLAIN_TEXT" value="228" />
           <entry key="XML" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="173" />
+          <entry key="java" value="195" />
+          <entry key="log" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="173" />
+          <entry key="JAVA" value="195" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -74,25 +76,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="347">
+              <caret line="125" column="26" lean-forward="true" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2972#2973#0" expanded="true" />
-                <element signature="e#2994#2995#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#3518#3519#0" expanded="true" />
+                <element signature="e#3540#3541#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/ObedFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="432">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +116,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>add(</find>
+      <find>int value</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,22 +179,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/IntInputComponent.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ShortInputComponent.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/StringInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/CharInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/InputComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/Accordion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/petersoft/advancedswing/accordion/Accordion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/FloatInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ShortInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/DoubleInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/IntInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ByteInputComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/LongInputComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/CollapsiblePane.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bc/ceres/swing/CollapsiblePane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/InputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/DoubleInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ByteInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/CharInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/FloatInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/IntInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ShortInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/StringInputComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/LongInputComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/ObedFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java" />
       </list>
     </option>
   </component>
@@ -200,8 +205,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -213,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,11 +289,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="obed&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/ObedFrame.java&#10;ob&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/Obed.java&#10;acc&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/petersoft/advancedswing/accordion/Accordion.java&#10;sho&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/ShortInputComponent.java&#10;bo&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java&#10;update&#9;ACTION&#9;WelcomeScreen.Update&#10;String&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/filters/StringInput.java&#10;pom&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538230516120" />
+    <property name="SearchEverywhereHistoryKey" value="obedfr&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/ObedFrame.java&#10;int&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/IntInputComponent.java&#10;obed&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/ObedFrame.java&#10;ob&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/Obed.java&#10;acc&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/petersoft/advancedswing/accordion/Accordion.java&#10;sho&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/ShortInputComponent.java&#10;bo&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java&#10;update&#9;ACTION&#9;WelcomeScreen.Update&#10;String&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/filters/StringInput.java&#10;pom&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538255137615" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -411,14 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538172165559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Major update&#10;&#10;Changed the way inputs are handled.&#10;Bug fixes.&#10;Started on nested object support (currently broken).">
+      <created>1538230627823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538230627824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32603937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +439,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19393283" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21444201" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +493,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Minor update&#10;&#10;Changed the way inputs are captured to allow for default values." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor update&#10;&#10;Changed the way inputs are captured to allow for default values." />
+    <MESSAGE value="Major update&#10;&#10;Changed the way inputs are handled.&#10;Bug fixes.&#10;Started on nested object support (currently broken)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Major update&#10;&#10;Changed the way inputs are handled.&#10;Bug fixes.&#10;Started on nested object support (currently broken)." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -520,6 +533,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+          <folding>
+            <element signature="e#2499#2500#0" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -612,42 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/CharInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/StringInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="763" selection-start-line="763" selection-end-line="763" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,18 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/InputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Short.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -694,58 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ShortInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/DoubleInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/FloatInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/IntInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ByteInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/LongInputComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/petersoft/advancedswing/accordion/Accordion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/petersoft/advancedswing/accordion/Accordion.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/swing/BoxLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="813">
@@ -757,21 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9337">
           <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
-          <folding>
-            <element signature="e#5403#5404#0" expanded="true" />
-            <element signature="e#5437#5438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="415" column="21" selection-start-line="415" selection-start-column="21" selection-end-line="415" selection-end-column="21" />
-          <folding>
-            <element signature="e#37566#37567#0" expanded="true" />
-            <element signature="e#37612#37613#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,24 +723,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java">
+    <entry file="file://$PROJECT_DIR$/hs_err_pid10668.log" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/swing/JPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="238">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="830" column="44" selection-start-line="830" selection-start-column="44" selection-end-line="830" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5661">
+          <caret line="383" column="18" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="345" column="23" selection-start-line="345" selection-start-column="23" selection-end-line="345" selection-end-column="23" />
+          <folding>
+            <element signature="e#37566#37567#0" expanded="true" />
+            <element signature="e#37612#37613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/DoubleInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ByteInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/CharInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/FloatInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/IntInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/ShortInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/InputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2972#2973#0" expanded="true" />
-            <element signature="e#2994#2995#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/StringInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/input/LongInputComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/ObedFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="432">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/blunderchips/Obed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="125" column="26" lean-forward="true" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#3518#3519#0" expanded="true" />
+            <element signature="e#3540#3541#0" expanded="true" />
           </folding>
         </state>
       </provider>

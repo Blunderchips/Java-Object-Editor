@@ -9,8 +9,8 @@ public class IntInputComponent extends InputComponent {
 
     private final StringInputField txtInt;
 
-    public IntInputComponent(Field field) {
-        super(field);
+    public IntInputComponent(Field field, Object obj) {
+        super(field, obj);
         super.add(txtInt = new StringInputField(this));
     }
 

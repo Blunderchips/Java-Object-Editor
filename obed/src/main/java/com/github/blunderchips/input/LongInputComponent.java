@@ -9,8 +9,8 @@ public class LongInputComponent extends InputComponent {
 
     private final StringInputField txtLong;
 
-    public LongInputComponent(Field field) {
-        super(field);
+    public LongInputComponent(Field field, Object obj) {
+        super(field, obj);
         super.add(txtLong = new StringInputField(this));
     }
 

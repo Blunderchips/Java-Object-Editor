@@ -9,8 +9,8 @@ public class DoubleInputComponent extends InputComponent {
 
     private final StringInputField txtDouble;
 
-    public DoubleInputComponent(Field field) {
-        super(field);
+    public DoubleInputComponent(Field field, Object obj) {
+        super(field, obj);
         super.add(txtDouble = new StringInputField(this));
     }
 

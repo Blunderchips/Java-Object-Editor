@@ -9,8 +9,8 @@ public class FloatInputComponent extends InputComponent {
 
     private final StringInputField txtFloat;
 
-    public FloatInputComponent(Field field) {
-        super(field);
+    public FloatInputComponent(Field field, Object obj) {
+        super(field, obj);
         super.add(txtFloat = new StringInputField(this));
     }
 

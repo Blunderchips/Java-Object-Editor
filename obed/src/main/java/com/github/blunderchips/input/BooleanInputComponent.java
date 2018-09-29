@@ -10,9 +10,9 @@ public class BooleanInputComponent extends InputComponent {
 
     private final JToggleButton toggleButton;
 
-    public BooleanInputComponent(Field f) {
-        super(f);
-        super.add(toggleButton = new JToggleButton(f.getName()));
+    public BooleanInputComponent(Field field, Object obj) {
+        super(field, obj);
+        super.add(toggleButton = new JToggleButton(field.getName()));
     }
 
     @Override

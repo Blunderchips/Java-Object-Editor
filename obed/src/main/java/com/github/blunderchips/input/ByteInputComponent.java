@@ -9,8 +9,8 @@ public class ByteInputComponent extends InputComponent {
 
     private final StringInputField txtByte;
 
-    public ByteInputComponent(Field field) {
-        super(field);
+    public ByteInputComponent(Field field, Object obj) {
+        super(field, obj);
         super.add(txtByte = new StringInputField(this));
     }
 

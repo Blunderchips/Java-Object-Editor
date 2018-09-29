@@ -38,30 +38,33 @@ public class ObedFrame extends JFrame {
     public static class n {
 
         public String str;
-        public long l;
-        public char c;
-        public int i;
-        public double d;
-        public float f;
-        public short s;
-        public byte b;
-        public boolean bool;
-        public Boolean asd;
-//        public a bb; todo
+        //        public long l;
+//        public char c;
+//        public int i;
+//        public double d;
+//        public float f;
+//        public short s;
+//        public byte b;
+//        public boolean bool;
+//        public Boolean asd;
+        public a bb;
+        public a ab;
 
         @Override
         public String toString() {
             return new StringJoiner(", ", n.class.getSimpleName() + "[", "]")
                     .add("str='" + str + "'")
-                    .add("l=" + l)
-                    .add("c=" + c)
-                    .add("i=" + i)
-                    .add("d=" + d)
-                    .add("f=" + f)
-                    .add("s=" + s)
-                    .add("b=" + b)
-                    .add("bool=" + bool)
-                    .add("asd=" + asd)
+//                    .add("l=" + l)
+//                    .add("c=" + c)
+//                    .add("i=" + i)
+//                    .add("d=" + d)
+//                    .add("f=" + f)
+//                    .add("s=" + s)
+//                    .add("b=" + b)
+//                    .add("bool=" + bool)
+//                    .add("asd=" + asd)
+                    .add("bb=" + bb)
+                    .add("ab=" + ab)
                     .toString();
         }
     }
