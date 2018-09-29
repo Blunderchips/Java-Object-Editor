@@ -15,14 +15,10 @@ public class DoubleInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        getField().setDouble(obj, getInput());
-    }
-
-    private double getInput() throws NumberFormatException {
+    protected Object getInput() throws NumberFormatException {
         String d = txtDouble.getText().trim();
         if (d.isEmpty()) {
-            return 0;
+            return (double) 0;
         }
         return Double.parseDouble(d);
     }

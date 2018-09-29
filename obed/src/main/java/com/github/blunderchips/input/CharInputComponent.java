@@ -15,11 +15,7 @@ public class CharInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException {
-        getField().setChar(obj, getInput());
-    }
-
-    private char getInput() {
+    protected Object getInput() {
         String c = txtChar.getText().trim();
         if (c.isEmpty()) {
             return ' ';

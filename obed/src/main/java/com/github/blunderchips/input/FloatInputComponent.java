@@ -15,14 +15,10 @@ public class FloatInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        getField().setFloat(obj, getInput());
-    }
-
-    private float getInput() throws NumberFormatException {
+    protected Object getInput() throws NumberFormatException {
         String f = txtFloat.getText().trim();
         if (f.isEmpty()) {
-            return 0;
+            return (float) 0;
         }
         return Float.parseFloat(f);
     }

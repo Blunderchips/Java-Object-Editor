@@ -15,14 +15,10 @@ public class IntInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        getField().setInt(obj, getInput());
-    }
-
-    private int getInput() throws NumberFormatException {
+    protected Object getInput() throws NumberFormatException {
         String i = txtInt.getText().trim();
         if (i.isEmpty()) {
-            return 0;
+            return (int) 0;
         }
         return Integer.parseInt(i);
     }

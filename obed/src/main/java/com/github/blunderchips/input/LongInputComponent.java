@@ -15,14 +15,10 @@ public class LongInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        getField().setLong(obj, getInput());
-    }
-
-    private long getInput() throws NumberFormatException {
+    protected Object getInput() throws NumberFormatException {
         String l = txtLong.getText().trim();
         if (l.isEmpty()) {
-            return 0;
+            return (long) 0;
         }
         return Long.parseLong(l);
     }

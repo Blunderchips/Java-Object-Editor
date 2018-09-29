@@ -15,7 +15,7 @@ public class StringInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException {
-        getField().set(obj, txtInput.getText());
+    protected Object getInput() {
+        return txtInput.getText();
     }
 }

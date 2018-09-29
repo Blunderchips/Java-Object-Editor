@@ -16,7 +16,7 @@ public class BooleanInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException {
-        getField().setBoolean(obj, toggleButton.isSelected());
+    protected Object getInput() {
+        return toggleButton.isSelected();
     }
 }

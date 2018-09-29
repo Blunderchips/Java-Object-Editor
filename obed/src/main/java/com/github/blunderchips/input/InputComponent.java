@@ -29,7 +29,11 @@ public abstract class InputComponent extends JPanel {
      * @throws IllegalAccessException if this {@code Field} object is enforcing Java language access control and the
      *                                underlying field is either inaccessible or final.
      */
-    public abstract void save(Object obj) throws IllegalAccessException;
+    public void save(Object obj) throws IllegalAccessException {
+        getField().set(obj, getInput());
+    }
+
+    protected abstract Object getInput();
 
     protected Field getField() {
         return this.field;

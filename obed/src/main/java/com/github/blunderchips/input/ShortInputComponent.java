@@ -14,20 +14,11 @@ public class ShortInputComponent extends InputComponent {
         super.add(txtShort = new StringInputField(this));
     }
 
-    /**
-     * @param obj {@link Object} to be edited.
-     * @throws IllegalAccessException
-     * @throws NumberFormatException  NumberFormatException If the {@link String} does not contain a parsable {@link Short}.
-     */
     @Override
-    public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        getField().setShort(obj, getInput());
-    }
-
-    private short getInput() throws NumberFormatException {
+    protected Object getInput() throws NumberFormatException {
         String s = txtShort.getText().trim();
         if (s.isEmpty()) {
-            return 0;
+            return (short) 0;
         }
         return Short.parseShort(s);
     }

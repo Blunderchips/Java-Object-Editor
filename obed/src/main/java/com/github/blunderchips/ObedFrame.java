@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.StringJoiner;
 
+/**
+ * For testing.
+ */
 public class ObedFrame extends JFrame {
 
     public ObedFrame(Component parent) throws HeadlessException {
@@ -16,6 +19,12 @@ public class ObedFrame extends JFrame {
         super.setSize(size, size);
     }
 
+    @Override
+    public void dispose() {
+        System.out.println("Goodbye(:");
+        super.dispose();
+    }
+
     /**
      * @param args Arguments from the command line
      */
@@ -23,6 +32,9 @@ public class ObedFrame extends JFrame {
         new ObedFrame(null).setVisible(true);
     }
 
+    /**
+     * Class for testing.
+     */
     public static class n {
 
         public String str;
@@ -34,12 +46,14 @@ public class ObedFrame extends JFrame {
         public short s;
         public byte b;
         public boolean bool;
+        public Boolean asd;
+//        public a bb; todo
 
         @Override
         public String toString() {
             return new StringJoiner(", ", n.class.getSimpleName() + "[", "]")
-                    .add("l=" + l)
                     .add("str='" + str + "'")
+                    .add("l=" + l)
                     .add("c=" + c)
                     .add("i=" + i)
                     .add("d=" + d)
@@ -47,6 +61,37 @@ public class ObedFrame extends JFrame {
                     .add("s=" + s)
                     .add("b=" + b)
                     .add("bool=" + bool)
+                    .add("asd=" + asd)
+                    .toString();
+        }
+    }
+
+    public static class a {
+
+        public String str;
+        public long l;
+        public char c;
+        public int i;
+        public double d;
+        public float f;
+        public short s;
+        public byte b;
+        public boolean bool;
+        public Boolean asd;
+
+        @Override
+        public String toString() {
+            return new StringJoiner(", ", a.class.getSimpleName() + "[", "]")
+                    .add("str='" + str + "'")
+                    .add("l=" + l)
+                    .add("c=" + c)
+                    .add("i=" + i)
+                    .add("d=" + d)
+                    .add("f=" + f)
+                    .add("s=" + s)
+                    .add("b=" + b)
+                    .add("bool=" + bool)
+                    .add("asd=" + asd)
                     .toString();
         }
     }

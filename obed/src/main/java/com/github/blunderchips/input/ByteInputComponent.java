@@ -15,14 +15,10 @@ public class ByteInputComponent extends InputComponent {
     }
 
     @Override
-    public void save(Object obj) throws IllegalAccessException, NumberFormatException {
-        getField().setByte(obj, getInput());
-    }
-
-    private Byte getInput() throws NumberFormatException {
+    protected Object getInput() throws NumberFormatException {
         String b = txtByte.getText().trim();
         if (b.isEmpty()) {
-            return 0;
+            return (byte) 0;
         }
         return Byte.parseByte(b);
     }
