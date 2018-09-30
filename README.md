@@ -1,4 +1,4 @@
-# Java Swing Object Editor
+# Obed - Java Swing Object Editor
 
 ## License
 MIT License
