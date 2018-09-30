@@ -27,9 +27,13 @@ public class LongInputComponent extends InputComponent {
 
     @Override
     public boolean isInputValid() {
+        String l = txtLong.getText().trim();
+        if (l.isEmpty()) {
+            return true;
+        }
         try {
             //noinspection ResultOfMethodCallIgnored
-            Long.parseLong(txtLong.getText());
+            Long.parseLong(l);
             return true;
         } catch (NumberFormatException nfe) {
             return false;

@@ -27,9 +27,13 @@ public class FloatInputComponent extends InputComponent {
 
     @Override
     public boolean isInputValid() {
+        String f = txtFloat.getText().trim();
+        if (f.isEmpty()) {
+            return true;
+        }
         try {
             //noinspection ResultOfMethodCallIgnored
-            Float.parseFloat(txtFloat.getText());
+            Float.parseFloat(f);
             return true;
         } catch (NumberFormatException nfe) {
             return false;

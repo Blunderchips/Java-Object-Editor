@@ -27,9 +27,13 @@ public class DoubleInputComponent extends InputComponent {
 
     @Override
     public boolean isInputValid() {
+        String d = txtDouble.getText().trim();
+        if (d.isEmpty()) {
+            return true;
+        }
         try {
             //noinspection ResultOfMethodCallIgnored
-            Double.parseDouble(txtDouble.getText());
+            Double.parseDouble(d);
             return true;
         } catch (NumberFormatException nfe) {
             return false;

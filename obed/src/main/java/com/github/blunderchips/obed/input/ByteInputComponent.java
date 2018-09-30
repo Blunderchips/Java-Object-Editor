@@ -27,9 +27,13 @@ public class ByteInputComponent extends InputComponent {
 
     @Override
     public boolean isInputValid() {
+        String b = txtByte.getText().trim();
+        if (b.isEmpty()) {
+            return true;
+        }
         try {
             //noinspection ResultOfMethodCallIgnored
-            Byte.parseByte(txtByte.getText());
+            Byte.parseByte(b);
             return true;
         } catch (NumberFormatException nfe) {
             return false;

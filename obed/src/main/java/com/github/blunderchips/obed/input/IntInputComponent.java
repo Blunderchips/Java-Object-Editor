@@ -27,9 +27,13 @@ public class IntInputComponent extends InputComponent {
 
     @Override
     public boolean isInputValid() {
+        String i = txtInt.getText().trim();
+        if (i.isEmpty()) {
+            return true;
+        }
         try {
             //noinspection ResultOfMethodCallIgnored
-            Integer.parseInt(txtInt.getText());
+            Integer.parseInt(i);
             return true;
         } catch (NumberFormatException nfe) {
             return false;
