@@ -7,6 +7,7 @@ Object Editor (Obed) is a Swing based graphical Java object editor that operates
 * Some sort of accordian/colpasable panel for nested objects.
 * More input validation.
 * New interger/float/double/etc. input method.
+* Generate & host Javadoc.
 
 **Watch/star to follow along with progress!**
 
