@@ -19,6 +19,9 @@ import java.awt.event.FocusListener;
 // https://github.com/Microsoft/vso-intellij/blob/master/plugin.idea/src/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java
 public class HintTextFieldUI extends BasicTextFieldUI implements FocusListener {
 
+    /**
+     * Specifies a short hint that describes the expected value of the input field.
+     */
     private final String hintText;
 
     public HintTextFieldUI(String hint) {
