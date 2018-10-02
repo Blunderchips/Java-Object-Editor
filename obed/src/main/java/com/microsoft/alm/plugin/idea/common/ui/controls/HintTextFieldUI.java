@@ -11,10 +11,12 @@ import java.awt.event.FocusListener;
 /**
  * Use this class as the UI for a TextField where you want to add hint text. The
  * hint text is displayed as long as the control doesn't have focus and doesn't
- * have a value. siD: Made minor modifications.
+ * have a value.
+ * <br>
+ * siD: Made minor modifications.
  *
  * @see <a href="https://github.com/Microsoft/vso-intellij/blob/master/plugin.idea/src/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java
- * ">GitHub</a>
+ * ">Visual Studio Team Services Plugin for IntelliJ, Android Studio, & other Jetbrains IDEs GitHub Project</a>
  */
 // https://github.com/Microsoft/vso-intellij/blob/master/plugin.idea/src/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java
 public class HintTextFieldUI extends BasicTextFieldUI implements FocusListener {

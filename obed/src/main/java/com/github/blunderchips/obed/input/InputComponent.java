@@ -5,6 +5,8 @@ import java.awt.*;
 import java.lang.reflect.Field;
 
 /**
+ * Base input component.
+ *
  * @author Matthew 'siD' Van der Bijl
  */
 public abstract class InputComponent extends JPanel {
@@ -19,7 +21,8 @@ public abstract class InputComponent extends JPanel {
     private final Object obj;
 
     /**
-     * @param field {@link Field} to be edited.
+     * @param field {@link Field} to be edited
+     * @param obj The {@code Object} to be edited
      */
     public InputComponent(Field field, Object obj) {
         this.field = field;
@@ -33,7 +36,7 @@ public abstract class InputComponent extends JPanel {
 
     /**
      * @throws IllegalAccessException if the {@link Field} object is enforcing Java language access control and the
-     *                                underlying field is either inaccessible or final. Should never happen.
+     *                                underlying field is either inaccessible or final. Should never happen
      *
      * @see Field#set(Object, Object)
      */
@@ -46,6 +49,9 @@ public abstract class InputComponent extends JPanel {
      */
     protected abstract Object getInput();
 
+    /**
+     * @return {@link Field} to be edited
+     */
     public Field getField() {
         return this.field;
     }
