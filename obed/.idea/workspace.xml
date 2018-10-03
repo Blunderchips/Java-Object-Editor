@@ -2,6 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2cdd449-8d49-4290-ba90-6eea9366f817" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../docs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/Obed.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/Obed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/ObedFrame.a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/ObedFrame.a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/ObedFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/ObedFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/ObedFrame.n.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/ObedFrame.n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/Obed.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/Obed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/ObedFrame.a.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/ObedFrame.a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/ObedFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/ObedFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/ObedFrame.n.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/class-use/ObedFrame.n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/BooleanInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/BooleanInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/ByteInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/ByteInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/CharInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/CharInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/DoubleInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/DoubleInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/FloatInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/FloatInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/InputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/InputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/IntInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/IntInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/LongInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/LongInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/ShortInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/ShortInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/StringInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/StringInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/BooleanInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/BooleanInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/ByteInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/ByteInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/CharInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/CharInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/DoubleInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/DoubleInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/FloatInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/FloatInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/InputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/InputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/IntInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/IntInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/LongInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/LongInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/ShortInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/ShortInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/StringInputComponent.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/class-use/StringInputComponent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/input/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/StringInputField.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/StringInputField.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/class-use/StringInputField.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/class-use/StringInputField.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/github/blunderchips/obed/util/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/class-use/HintTextFieldUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/class-use/HintTextFieldUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/com/microsoft/alm/plugin/idea/common/ui/controls/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,17 +104,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9498" />
+          <entry key="java" value="9499" />
           <entry key="kt" value="1" />
-          <entry key="txt" value="602" />
+          <entry key="txt" value="619" />
           <entry key="xml" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9498" />
+          <entry key="JAVA" value="9499" />
           <entry key="Kotlin" value="1" />
-          <entry key="PLAIN_TEXT" value="602" />
+          <entry key="PLAIN_TEXT" value="619" />
           <entry key="XML" value="150" />
         </counts>
       </usages-collector>
@@ -89,8 +164,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+            <state relative-caret-position="74">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="156" />
               <folding>
                 <element signature="e#0#2471#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -208,7 +283,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -305,7 +380,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="obedfr&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/ObedFrame.java&#10;int&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/IntInputComponent.java&#10;obed&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/ObedFrame.java&#10;ob&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/Obed.java&#10;acc&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/petersoft/advancedswing/accordion/Accordion.java&#10;sho&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/ShortInputComponent.java&#10;bo&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/input/BooleanInputComponent.java&#10;update&#9;ACTION&#9;WelcomeScreen.Update&#10;String&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/src/main/java/com/github/blunderchips/filters/StringInput.java&#10;pom&#9;FILE&#9;file://D:/Code/Java-Object-Editor/obed/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538550583210" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538551448086" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -504,14 +579,28 @@
       <option name="project" value="LOCAL" />
       <updated>1538312973034</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Minor update&#10;&#10;Commented code">
+      <created>1538550637612</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1538550637612</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minor update&#10;&#10;Commented code">
+      <created>1538550736670</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1538550736670</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3358862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,7 +609,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2155361" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21343446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -580,7 +669,8 @@
     <MESSAGE value="Big fix + Minor update&#10;&#10;Moved to correct package.&#10;Create util package.&#10;Other misc changes not worth mentioning." />
     <MESSAGE value="Word art on package info." />
     <MESSAGE value="Minor update&#10;&#10;Updated input validation. If the field is empty a default value will be &#10;returned which will be valid.&#10;Added util package-info." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor update&#10;&#10;Updated input validation. If the field is empty a default value will be &#10;returned which will be valid.&#10;Added util package-info." />
+    <MESSAGE value="Minor update&#10;&#10;Commented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor update&#10;&#10;Commented code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -911,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        <state relative-caret-position="74">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="156" />
           <folding>
             <element signature="e#0#2471#0" expanded="true" />
             <element signature="imports" expanded="true" />

@@ -15,8 +15,11 @@ import java.awt.event.FocusListener;
  * <br>
  * siD: Made minor modifications.
  *
+ * @see <a href="https://github.com/Microsoft/azure-devops-intellij">Visual Studio Team Services Plugin for IntelliJ,
+ * Android Studio, & other Jetbrains IDEs GitHub Project</a>
+ *
  * @see <a href="https://github.com/Microsoft/vso-intellij/blob/master/plugin.idea/src/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java
- * ">Visual Studio Team Services Plugin for IntelliJ, Android Studio, & other Jetbrains IDEs GitHub Project</a>
+ *  * ">HintTextFieldUI.java</a>
  */
 // https://github.com/Microsoft/vso-intellij/blob/master/plugin.idea/src/com/microsoft/alm/plugin/idea/common/ui/controls/HintTextFieldUI.java
 public class HintTextFieldUI extends BasicTextFieldUI implements FocusListener {
