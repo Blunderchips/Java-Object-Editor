@@ -1,5 +1,5 @@
 // Copyright (c) Microsoft. All rights reserved.
-// Licensed under the MIT license. See License.txt in the project root.
+// Licensed under the MIT license. See LICENSE.txt in this package.
 package com.microsoft.alm.plugin.idea.common.ui.controls;
 
 import javax.swing.plaf.basic.BasicTextFieldUI;
@@ -26,6 +26,9 @@ public class HintTextFieldUI extends BasicTextFieldUI implements FocusListener {
      */
     private final String hintText;
 
+    /**
+     * @param hint a short hint that describes the expected value of the input field
+     */
     public HintTextFieldUI(String hint) {
         this.hintText = hint;
     }
@@ -33,33 +36,49 @@ public class HintTextFieldUI extends BasicTextFieldUI implements FocusListener {
     @Override
     protected void paintSafely(Graphics gfx) {
         super.paintSafely(gfx);
-        JTextComponent component = getComponent();
-        if (hintText != null && component.getText().isEmpty() && !component.hasFocus()) {
+        JTextComponent cmp = getComponent();
+        if (hintText != null && cmp.getText().isEmpty() && !cmp.hasFocus()) {
             gfx.setColor(Color.GRAY);
 
-            final int fontSize = component.getFont().getSize();
-            final int padding = (component.getHeight() - fontSize) / 2;
-            final int x = component.getInsets().left;
-            final int y = component.getHeight() - padding - 1;
+            final int fontSize = cmp.getFont().getSize();
+            final int padding = (cmp.getHeight() - fontSize) / 2;
+            final int x = cmp.getInsets().left;
+            final int y = cmp.getHeight() - padding - 1;
 
             gfx.drawString(hintText, x, y);
         }
     }
 
+    /**
+     * Calls {@link #repaint()}.
+     *
+     * @param evt Event
+     */
     public void focusGained(FocusEvent evt) {
         this.repaint();
     }
 
+    /**
+     * Calls {@link #repaint()}.
+     *
+     * @param evt Event
+     */
     public void focusLost(FocusEvent evt) {
         this.repaint();
     }
 
+    /**
+     * Adds {@code this} focus listener.
+     */
     @Override
     protected void installListeners() {
         super.installListeners();
         super.getComponent().addFocusListener(this);
     }
 
+    /**
+     * Removes {@code this} focus listener.
+     */
     @Override
     protected void uninstallListeners() {
         super.uninstallListeners();
