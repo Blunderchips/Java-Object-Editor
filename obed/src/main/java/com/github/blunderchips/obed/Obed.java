@@ -18,7 +18,10 @@ import java.lang.reflect.Modifier;
  */
 public class Obed extends JPanel implements ActionListener {
 
-    private final JPanel inputPanel; // FIXME: 29 Sep 2018 
+    private final JPanel inputPanel; // FIXME: 29 Sep 2018
+    /**
+     * The {@code Object} to be edited.
+     */
     private final Object obj;
 
     /**
@@ -48,6 +51,18 @@ public class Obed extends JPanel implements ActionListener {
         JPanel pnl = new JPanel();
         pnl.setLayout(new BoxLayout(pnl, BoxLayout.Y_AXIS));
         return attachComponents(c, pnl);
+    }
+
+    /**
+     * To make exception handling more generic.
+     * <br>TODO
+     *
+     * @param t the exception that has occurred
+     */
+    private static void err(Throwable t) {
+        t.printStackTrace(System.err);
+        Toolkit.getDefaultToolkit().beep();
+        TaskDialogs.showException(t);
     }
 
     private JPanel attachComponents(Class c, JPanel panel) {
@@ -99,26 +114,18 @@ public class Obed extends JPanel implements ActionListener {
                             String.format("%s : %s", field.getName(), type.getSimpleName())));
                     panel.add(obedPanel);
                 } catch (Exception ex) {
-                    // TODO: 29 Sep 2018
-                    ex.printStackTrace(System.err);
+                    Obed.err(ex);
                 }
             }
         }
         return panel;
     }
 
-    @Override
-    public void actionPerformed(ActionEvent evt) {
-        save();
-    }
-
     private void save() {
         try {
             save(inputPanel.getComponents());
         } catch (IllegalAccessException | NumberFormatException ex) {
-            ex.printStackTrace(System.err);
-            Toolkit.getDefaultToolkit().beep();
-            TaskDialogs.showException(ex);
+            Obed.err(ex);
         }
         System.out.println(obj);
     }
@@ -133,5 +140,13 @@ public class Obed extends JPanel implements ActionListener {
                 save(((Container) cmp).getComponents());
             }
         }
+    }
+
+    /**
+     * @param evt Event
+     */
+    @Override
+    public void actionPerformed(ActionEvent evt) {
+        save();
     }
 }

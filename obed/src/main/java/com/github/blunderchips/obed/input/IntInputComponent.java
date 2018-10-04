@@ -5,6 +5,8 @@ import com.github.blunderchips.obed.util.StringInputField;
 import java.lang.reflect.Field;
 
 /**
+ * Integer input component.
+ *
  * @see java.lang.Integer
  */
 public class IntInputComponent extends InputComponent {

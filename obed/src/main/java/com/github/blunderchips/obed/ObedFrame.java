@@ -5,15 +5,15 @@ import java.awt.*;
 import java.util.StringJoiner;
 
 /**
- * For testing.
+ *
  */
 public class ObedFrame extends JFrame {
 
-    public ObedFrame(Component parent) throws HeadlessException {
+    public ObedFrame(Object obj, Component parent) throws HeadlessException {
         super("~ Java Object Editor ~");
         super.setLocationRelativeTo(parent);
         // super.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        super.add(new Obed(new n())); // For testing
+        super.add(new Obed(obj)); // For testing
 
         pack();
         int size = Math.max(getWidth(), getHeight());
@@ -27,10 +27,12 @@ public class ObedFrame extends JFrame {
     }
 
     /**
+     * For testing.
+     *
      * @param args Arguments from the command line
      */
     public static void main(String[] args) {
-        new ObedFrame(null).setVisible(true);
+        new ObedFrame(new n(), null).setVisible(true);
     }
 
     /**
