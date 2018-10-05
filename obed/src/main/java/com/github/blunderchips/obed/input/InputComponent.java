@@ -57,6 +57,13 @@ public abstract class InputComponent extends JPanel {
     }
 
     /**
+     * @return The {@code Object} to be edited
+     */
+    public Object getObject() {
+        return this.obj;
+    }
+
+    /**
      * @return True, assume that the input is valid
      */
     public boolean isInputValid() {

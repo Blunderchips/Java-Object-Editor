@@ -12,11 +12,21 @@ public class BooleanInputComponent extends InputComponent {
 
     public BooleanInputComponent(Field field, Object obj) {
         super(field, obj);
-        super.add(toggleButton = new JToggleButton(field.getName()));
+        this.toggleButton = new JToggleButton(field.getName());
+        try {
+            // siD 05/10/2018: caused an exception to be thrown
+            // this.toggleButton.setSelected(field.getBoolean(obj));
+
+            this.toggleButton.setSelected((boolean) field.get(obj));
+        } catch (Exception ex) {
+            // TODO: 04 Oct 2018
+            ex.printStackTrace(System.err);
+        }
+        super.add(toggleButton);
     }
 
     @Override
-    protected Object getInput() {
+    public Object getInput() {
         return toggleButton.isSelected();
     }
 }

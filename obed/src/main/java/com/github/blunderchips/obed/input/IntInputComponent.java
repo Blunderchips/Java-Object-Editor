@@ -22,6 +22,7 @@ public class IntInputComponent extends InputComponent {
     protected Object getInput() throws NumberFormatException {
         String i = txtInt.getText().trim();
         if (i.isEmpty()) {
+            //noinspection RedundantCast
             return (int) 0;
         }
         return Integer.parseInt(i);

@@ -16,6 +16,11 @@ import java.lang.reflect.Field;
 public class StringInputField extends JTextField implements FocusListener {
 
     /**
+     * Error colour.
+     */
+    private static final Color SCARLET = new Color(0xff2400);
+
+    /**
      * Parent input component.
      */
     private final InputComponent input;
@@ -30,20 +35,39 @@ public class StringInputField extends JTextField implements FocusListener {
         super.setToolTipText(str);
         super.setUI(new HintTextFieldUI(str));
 
+        try {
+            Object obj = cmp.getField().get(cmp.getObject());
+            if (obj != null) {
+                str = obj.toString().trim();
+                if (!str.isEmpty()) {
+                    super.setText(str);
+                }
+            }
+        } catch (Exception ex) {
+            // TODO: 05 Oct 2018  
+            ex.printStackTrace(System.err);
+        }
+
         super.addFocusListener(this);
     }
 
+    /**
+     * @param evt Event
+     */
     @Override
     public void focusGained(FocusEvent evt) {
         // siD 28/09/2018: Don't really care about this method.
     }
 
+    /**
+     * @param evt Event
+     */
     @Override
     public void focusLost(FocusEvent evt) {
         if (input.isInputValid()) {
             setForeground(Color.black);
         } else {
-            setForeground(Color.red); // TODO: 28 Sep 2018 Better share of red?
+            setForeground(SCARLET);
         }
     }
 }

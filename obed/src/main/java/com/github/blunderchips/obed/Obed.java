@@ -31,13 +31,17 @@ public class Obed extends JPanel implements ActionListener {
         this(obj, true);
     }
 
+    /**
+     * @param obj    The {@code Object} to be edited
+     * @param isRoot Whether {@code this} is the first {@link JPanel} to be created or not
+     */
     private Obed(Object obj, boolean isRoot) {
         super(new BorderLayout());
         this.obj = obj;
 
         this.inputPanel = attachComponents(obj.getClass());
         this.inputPanel.setBorder(BorderFactory.createTitledBorder(obj.getClass().getSimpleName()));
-        add(new JScrollPane(inputPanel), BorderLayout.CENTER);
+        super.add(new JScrollPane(inputPanel), BorderLayout.CENTER);
 
         if (isRoot) {
             JButton btnSubmit = new JButton("Submit");

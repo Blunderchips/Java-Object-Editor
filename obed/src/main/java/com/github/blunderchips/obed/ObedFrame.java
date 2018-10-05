@@ -79,11 +79,11 @@ public class ObedFrame extends JFrame {
         public char c;
         public int i;
         public double d;
-        public float f;
+        public float f = 10.75f;
         public short s;
         public byte b;
-        public boolean bool;
-        public Boolean asd;
+        public boolean bool = true;
+        public Boolean asd = false;
 
         @Override
         public String toString() {
