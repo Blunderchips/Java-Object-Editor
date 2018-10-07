@@ -51,12 +51,6 @@ public class Obed extends JPanel implements ActionListener {
         }
     }
 
-    private JPanel attachComponents(Class c) {
-        JPanel pnl = new JPanel();
-        pnl.setLayout(new BoxLayout(pnl, BoxLayout.Y_AXIS));
-        return attachComponents(c, pnl);
-    }
-
     /**
      * To make exception handling more generic.
      * <br>TODO
@@ -67,6 +61,12 @@ public class Obed extends JPanel implements ActionListener {
         t.printStackTrace(System.err);
         Toolkit.getDefaultToolkit().beep();
         TaskDialogs.showException(t);
+    }
+
+    private JPanel attachComponents(Class c) {
+        JPanel pnl = new JPanel();
+        pnl.setLayout(new BoxLayout(pnl, BoxLayout.Y_AXIS));
+        return attachComponents(c, pnl);
     }
 
     private JPanel attachComponents(Class c, JPanel panel) {
@@ -147,6 +147,8 @@ public class Obed extends JPanel implements ActionListener {
     }
 
     /**
+     * Invoked when the submit button is clicked.
+     *
      * @param evt Event
      */
     @Override

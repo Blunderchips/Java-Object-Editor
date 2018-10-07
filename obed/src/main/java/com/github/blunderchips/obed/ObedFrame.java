@@ -2,10 +2,13 @@ package com.github.blunderchips.obed;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.StringJoiner;
 
 /**
+ * {@link JFrame} with a {@link Obed} {@link JPanel} added to it.
  *
+ * @author Matthew 'siD' Van der Bijl
+ *
+ * @see com.github.blunderchips.obed.Obed
  */
 public class ObedFrame extends JFrame {
 
@@ -13,7 +16,8 @@ public class ObedFrame extends JFrame {
         super("~ Java Object Editor ~");
         super.setLocationRelativeTo(parent);
         // super.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-        super.add(new Obed(obj)); // For testing
+        super.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        super.add(new Obed(obj));
 
         pack();
         int size = Math.max(getWidth(), getHeight());
@@ -55,23 +59,18 @@ public class ObedFrame extends JFrame {
 
         @Override
         public String toString() {
-            return new StringJoiner(", ", n.class.getSimpleName() + "[", "]")
-                    .add("str='" + str + "'")
-//                    .add("l=" + l)
-//                    .add("c=" + c)
-//                    .add("i=" + i)
-//                    .add("d=" + d)
-//                    .add("f=" + f)
-//                    .add("s=" + s)
-//                    .add("b=" + b)
-//                    .add("bool=" + bool)
-//                    .add("asd=" + asd)
-                    .add("bb=" + bb)
-                    .add("ab=" + ab)
-                    .toString();
+            final StringBuilder sb = new StringBuilder("n{");
+            sb.append("str='").append(str).append('\'');
+            sb.append(", bb=").append(bb);
+            sb.append(", ab=").append(ab);
+            sb.append('}');
+            return sb.toString();
         }
     }
 
+    /**
+     * For testing.
+     */
     public static class a {
 
         public String str;
@@ -87,18 +86,19 @@ public class ObedFrame extends JFrame {
 
         @Override
         public String toString() {
-            return new StringJoiner(", ", a.class.getSimpleName() + "[", "]")
-                    .add("str='" + str + "'")
-                    .add("l=" + l)
-                    .add("c=" + c)
-                    .add("i=" + i)
-                    .add("d=" + d)
-                    .add("f=" + f)
-                    .add("s=" + s)
-                    .add("b=" + b)
-                    .add("bool=" + bool)
-                    .add("asd=" + asd)
-                    .toString();
+            final StringBuilder sb = new StringBuilder("a{");
+            sb.append("str='").append(str).append('\'');
+            sb.append(", l=").append(l);
+            sb.append(", c=").append(c);
+            sb.append(", i=").append(i);
+            sb.append(", d=").append(d);
+            sb.append(", f=").append(f);
+            sb.append(", s=").append(s);
+            sb.append(", b=").append(b);
+            sb.append(", bool=").append(bool);
+            sb.append(", asd=").append(asd);
+            sb.append('}');
+            return sb.toString();
         }
     }
 }
