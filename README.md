@@ -2,6 +2,9 @@
 
 Object Editor (Obed) is a Swing based graphical Java object editor that operates at runtime. Obed is open source software and freely available at no charge.
 
+* [GitHub - Blunderchips/Java-Object-Editor](https://github.com/Blunderchips/Java-Object-Editor)
+* [JavaDoc - https://blunderchips.github.io/Java-Object-Editor/](https://blunderchips.github.io/Java-Object-Editor/)
+
 ### To-Do
 * Better exception handling.
 * Some sort of accordian/colpasable panel for nested objects.
