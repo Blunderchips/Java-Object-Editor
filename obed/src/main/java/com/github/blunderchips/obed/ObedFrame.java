@@ -24,6 +24,9 @@ public class ObedFrame extends JFrame {
         super.setSize(size, size);
     }
 
+    /**
+     * Releases all resources of this object.
+     */
     @Override
     public void dispose() {
         System.out.println("Goodbye(:");
@@ -59,12 +62,11 @@ public class ObedFrame extends JFrame {
 
         @Override
         public String toString() {
-            final StringBuilder sb = new StringBuilder("n{");
-            sb.append("str='").append(str).append('\'');
-            sb.append(", bb=").append(bb);
-            sb.append(", ab=").append(ab);
-            sb.append('}');
-            return sb.toString();
+            String sb = "n{" + "str='" + str + '\'' +
+                    ", bb=" + bb +
+                    ", ab=" + ab +
+                    '}';
+            return sb;
         }
     }
 
@@ -86,19 +88,18 @@ public class ObedFrame extends JFrame {
 
         @Override
         public String toString() {
-            final StringBuilder sb = new StringBuilder("a{");
-            sb.append("str='").append(str).append('\'');
-            sb.append(", l=").append(l);
-            sb.append(", c=").append(c);
-            sb.append(", i=").append(i);
-            sb.append(", d=").append(d);
-            sb.append(", f=").append(f);
-            sb.append(", s=").append(s);
-            sb.append(", b=").append(b);
-            sb.append(", bool=").append(bool);
-            sb.append(", asd=").append(asd);
-            sb.append('}');
-            return sb.toString();
+            String sb = "a{" + "str='" + str + '\'' +
+                    ", l=" + l +
+                    ", c=" + c +
+                    ", i=" + i +
+                    ", d=" + d +
+                    ", f=" + f +
+                    ", s=" + s +
+                    ", b=" + b +
+                    ", bool=" + bool +
+                    ", asd=" + asd +
+                    '}';
+            return sb;
         }
     }
 }

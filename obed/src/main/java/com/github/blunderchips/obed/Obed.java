@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 /**
- * Obed Java Object Editor.
+ * Obed Java Object Editor (<b>Obed</b>).
  * Created 24th September 2018.
  *
  * @author Matthew Van der Bijl

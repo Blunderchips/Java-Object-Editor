@@ -25,6 +25,9 @@ public class StringInputField extends JTextField implements FocusListener {
      */
     private final InputComponent input;
 
+    /**
+     * @param cmp Component
+     */
     public StringInputField(InputComponent cmp) {
         this.input = cmp;
 
@@ -60,6 +63,9 @@ public class StringInputField extends JTextField implements FocusListener {
     }
 
     /**
+     * @see com.github.blunderchips.obed.util.StringInputField#SCARLET
+     * @see java.awt.Color#BLACK
+     *
      * @param evt Event
      */
     @Override
